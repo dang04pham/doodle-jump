@@ -1,0 +1,24 @@
+.grid {
+    widows: 400px;
+    height: 600px;
+    background-color: whitesmoke;
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    opacity: 0.6;
+    background-image: url("pictures/night_sky_doodle_by_abstractkicker_dd999od-pre.jpg");
+}
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-color: red;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: palevioletred;
+    position: absolute;
+}
+
