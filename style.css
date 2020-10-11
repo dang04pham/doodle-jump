@@ -1,6 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
 .grid {
-    widows: 400px;
-    height: 600px;
+    margin: 0 auto;
+    width: 400px;
+    height: 100vh;
     background-color: whitesmoke;
     position: relative;
     font-size: 200px;
@@ -9,10 +17,13 @@
     background-image: url("pictures/night_sky_doodle_by_abstractkicker_dd999od-pre.jpg");
 }
 .doodler {
-    width: 60px;
-    height: 85px;
-    background-color: red;
+    width: 80px;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
+    background-image: url("https://www.models-resource.com/resources/big_icons/30/30024.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .platform {
